@@ -199,6 +199,7 @@ class WP_Widget_Search extends WP_Widget {
 		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? '' : $instance['title'], $instance, $this->id_base );
 
 		echo $before_widget;
+
 		if ( $title )
 			echo $before_title . $title . $after_title;
 
@@ -561,6 +562,10 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		$title = apply_filters('widget_title', empty($instance['title']) ? __('Recent Posts') : $instance['title'], $instance, $this->id_base);
 		if ( empty( $instance['number'] ) || ! $number = absint( $instance['number'] ) )
  			$number = 10;
+			
+		//setting recent posts to show last 20
+        $number = 20;
+		
 		$show_date = isset( $instance['show_date'] ) ? $instance['show_date'] : false;
 
 		$r = new WP_Query( apply_filters( 'widget_posts_args', array( 'posts_per_page' => $number, 'no_found_rows' => true, 'post_status' => 'publish', 'ignore_sticky_posts' => true ) ) );
