@@ -1,0 +1,1225 @@
+/*
+Theme Name: Provence Food and Wine
+Theme URI: http://provencefoodandwine.com/
+Description: provencefoodandwine.com - Good eating and drinking in Provence.
+Version: 1.0
+Author: <a href="http://provencefoodandwine.com/">Mary Dowey</a>
+*/
+
+body {
+/*background:#fff url("images/top.gif") repeat-x; */
+font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+font-size:13px;
+color:#222;
+padding:0;
+margin:0;
+left :50%;
+/*behavior: url('csshover2.htc'');
+  */
+}
+
+.headerText {
+  	position : absolute;
+	color:#000000;
+    font-weight:bold;
+	margin-left : 0px; /*200px; */
+    margin-bottom : 20px;
+	left: -75px;
+}
+
+.siteDescriptionText {
+	font-size:24.5pt;
+	font-weight:bold;
+	font-family : Franklin Gothic Medium;   /*Verdana; */
+	/*letter-spacing:-1px;*/
+	width:740px;/*450px; /*600px;*/
+	/*padding:0px 300px 300px 0px;
+  	  */
+	position : absolute;
+	top: 100px;
+	left: -75px;
+	color:#666666;
+	/*margin-left : 0px; 200px; */
+   /*margin-bottom : 50px;*/
+}
+
+
+#rssIcon {
+
+	/*top : 62px;
+	position : absolute;
+
+	left : 395px;/*387px;*/
+	background:  url('images/rssSmall.png') no-repeat;
+	height: 20px;
+	width:  20px;
+	display: block;
+	position: relative;
+
+	top : -20px;
+	left : 140px;
+}
+
+#stumbleUpon {
+
+	background:  url('images/stumbleuponSmall.jpg') no-repeat;
+	height: 25px;
+	width:  25px;
+    display: inline-block;
+   	position: relative;
+
+}
+
+#stumbleUponText {
+    width:400px;
+    height:25px;
+    position: relative;
+    display:inline;
+    padding-left:10px;
+    top:-5px;
+    text-transform:none;
+    font-size:12px;
+}
+
+#faceBookF {
+
+	/*top : 62px;
+	position : absolute;
+
+	left : 395px;/*387px;*/
+	background:  url('images/smallFaceBookF.jpg') no-repeat;
+	height: 28px;
+	width:  28px;
+	display: block;
+	position: relative;
+
+	top : -25px;
+	left : 100px;
+}
+#vaucluseTourismLogo {
+
+	background:  url('images/mediumVaucluseLogo.jpg') no-repeat;
+	height: 46px;
+	width:  190px;
+	display: block;
+	position: relative;
+}
+
+#interRhoneLogo {
+
+	background:  url('images/mediumRhoneWinesLogo.jpg') no-repeat;
+	height: 45px;
+	width:  192px;
+	display: block;
+	position: relative;
+}
+
+#ardecheLogo {
+
+	background:  url('images/smallLogo_ArdecheForever.jpg') no-repeat;
+	height: 57px;
+	width:  120px;
+	display: block;
+	position: relative;
+	left : 40px;
+}
+
+
+#chateauneufLogo {
+
+	background:  url('images/mediumChateauneufLogo.jpg') no-repeat;
+	height: 90px;
+	width:  90px;
+	display: block;
+	position: relative;
+    left : 50px;
+}
+
+#jnWineLogo  {
+
+	background:  url('images/mediumJnLogoSmall.jpg') no-repeat;
+	height: 96px;
+	width:  90px;
+	display: block;
+	position: relative;
+    left : 50px;
+}
+
+#luberonLogo {
+	background:  url('images/LuberonlogoRVBSmall.jpg') no-repeat;
+	height: 94px;
+	width:  93px;
+	display: block;
+	position: relative;
+    left : 50px;
+
+}
+
+#worldFirstLogo  {
+
+	background:  url('images/worldFirstSmallLogo.gif') no-repeat;
+    top: 15px;
+
+	height: 71px;
+	width:  95px;
+	display: block;
+	position: relative;
+    left : 40px;
+}
+
+#michelinGreenGuide {
+    background:  url('images/smallMichelinGreenGuide.bmp') no-repeat;
+	height: 178px;
+	width:  101px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
+#recipeSidebarPic {
+    background:  url('images/smallPFW-Guinea-fowl.jpg') no-repeat;
+	height: 140px;
+	width:  220px;
+	display: block;
+	position: relative;
+}
+
+#visitSidebarPic {
+    background:  url('images/Val_Joanis_garden_220.jpg') no-repeat;
+	height: 128px;
+	width:  220px;
+	display: block;
+	position: relative;
+}
+
+
+
+
+#thousandGreatWines {
+    background:  url('images/1000GreatWinesSmall.jpg') no-repeat;
+	height: 121px;
+	width:  100px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
+#wineOpus {
+    background:  url('images/wineOpusSmall.jpg') no-repeat;
+	height: 121px;
+	width:  100px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
+#provenceWineTravelGuide {
+    background:  url('images/provence_wine_travel_guideSmall.jpg') no-repeat;
+	height: 103px;
+	width:  160px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
+
+#luberonWineGuide {
+    background:  url('images/luberonSmall.jpg') no-repeat;
+	height: 89px;
+	width:  160px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
+#garlicLogo {
+
+	top : 78px;
+	position : absolute;
+
+	left : 585px;/*395px;*/
+	background:  url('images/blackGarlicSmall.gif') no-repeat;/*'greyGarlicSmall.png') no-repeat; */
+	height: 67px;
+	width:  67px;
+
+
+  	/*site launch logo pfw1.0
+	top : 38px;
+	position : absolute;
+
+	left : 650px;
+	background:  url('images/newGarlicSmall.png') no-repeat;
+	height: 55px;
+	width:  45px;*/
+}
+
+#garlicLogoSmallScreen {
+
+	top : 62px;
+	position : absolute;
+
+	left : 400px;/*387px;*/
+	background:  url('images/greyGarlicSmall.png') no-repeat;
+	height: 55px;
+	width:  55px;
+}
+
+.recentPosts {
+
+	color: #990099;
+	text-decoration: none;
+    font-size:14px;
+	font-weight:normal;
+	text-transform : uppercase;
+}
+
+.superSponsors {
+
+	color: #990099;
+	text-decoration: none;
+    font-size:21px;
+	font-weight:900;
+	text-transform : uppercase;
+	width : 230px;
+}
+.belowSuperSponsors {
+
+	color: #990099;
+	text-decoration: none;
+    font-size:26px;
+	font-weight:normal;
+	text-transform : uppercase;
+	width : 230px;
+}
+
+
+.restaurantMenuAnchor {
+	position:absolute;
+   	top :12px;
+	left :10px;
+
+  	font-weight : bold;
+}
+.wineProducersMenuAnchor {
+	position:absolute;
+   	top :5px;
+	left :10px;
+
+  	font-weight : bold;
+}
+
+
+
+/* -30px left for all menu items */
+#homeMenuItem {
+	position : absolute;
+    top : -45px;
+    left : -160px;
+    width : 127px;
+  	height : 49px;
+
+	background:  url('images/homeMenuSolid.gif') no-repeat ;
+}
+
+#restaurantMenuItem {
+	position : absolute;
+    top : -45px;
+	left: -40px;
+
+   /*
+      display:inline-block;   */
+
+    width : 127px;
+  	height : 49px;
+
+	background:  url('images/restaurantsMenuSolid.gif') no-repeat ;
+
+
+
+}
+
+#hotelMenuItem  {
+	position : absolute;
+
+   	top : -45px;
+   left : 95px;
+
+  /*
+      display:inline-block;   */
+
+   width : 127px;
+   	height : 49px;
+
+	background:  url('images/hotelsMenuSolid.gif') no-repeat ;
+
+}
+
+#wineProducerMenuItem  {
+	position : absolute;
+
+    top : -45px;
+  	/* top : -94px; for position relative */
+    left : 220px;
+
+	width : 127px;
+	height : 49px;
+
+	background:  url('images/wineProducersMenuSolid.gif') no-repeat ;
+    /*
+      display:inline-block;   */
+}
+
+#foodProducerMenuItem  {
+	position : absolute;
+    top : -45px;
+  	/*//top : -143px;  for position relative */
+ 	left : 345px;
+	width : 127px;
+	height : 49px;
+
+	background:  url('images/foodProducersMenuSolid.gif') no-repeat ;
+   /*
+      display:inline-block;   */
+}
+
+#shopMenuItem  {
+	position : absolute;
+
+    top : -45px;
+    /*	//top : -192px;  for position relative */
+    left : 480px;
+
+    width : 127px;
+	height : 49px;
+
+   	background:  url('images/shopMenuSolid.gif') no-repeat ;
+    /*
+      display:inline-block;   */
+}
+
+#marketMenuItem  {
+	position : absolute;
+
+    top : -45px;
+  	/*//top : -241px;      for position relative */
+   left : 800px;
+
+    width : 103px;
+	height : 49px;
+
+	background:  url('images/marketsMenu.gif') no-repeat ;
+   /*
+      display:inline-block;   */
+}
+
+#surpriseMenuItem  {
+	position : absolute;
+
+    top : -45px;
+  	/*//top : -290px;    for position relative */
+    left : 615px;/*707px;*/
+
+    width : 127px;
+	height : 49px;
+
+	background:  url('images/marketsMenuSolid.gif') no-repeat ;
+  /*  display:inline-block;*/
+}
+
+#homeMenuItem a, #restaurantMenuItem  a, #hotelMenuItem a, #wineProducerMenuItem a,
+#foodProducerMenuItem  a, #shopMenuItem a,
+#marketMenuItem  a, #surpriseMenuItem a {
+ 	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+
+	font-size: 9pt;
+	color : #000000;
+}
+
+
+
+
+#restaurantMenuItem  form.ddpl-form select{
+	top : 35px;
+	width :127px;
+}
+
+.hotelMenuItemClass {
+	position : absolute;
+	left : 157px;
+}
+
+.hotelMenuItemClass  form.ddpl-form select{
+	color:#6495ED;
+}
+
+form.ddpl-form select {
+position : absolute;
+width: 110px;
+color:#FF1493;
+}
+
+
+#navmenu {
+	position:absolute;
+	width : 500px;
+	left : 70px;
+    top : 205px;
+}
+
+#navmenu ul {
+	padding: 5px 0px 0px 0px;
+	list-style: none;
+    display: inline;
+
+  /*	width : 850px; */
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+
+	}
+
+/* display the list items in a line (horizontal menu) */
+#navmenu ul li {
+	display: inline;
+}
+
+/* style for menu item */
+#navmenu ul li a {
+	text-decoration:none;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	padding: 5px;
+}
+
+#navmenu ul li a:hover  {
+    /* can have a different background color when hover over a menu item
+	background-color : #990099;		*/
+	color : #000000;
+}
+
+/* sub-menu is an unordered list coming from a parent unordered list,
+(not parent list element)  */
+#navmenu ul ul {
+   	position : absolute;
+	/* the width and left is exactly set to the RESTAURANT items position
+	which is a relative position */
+	/* do not display (only when hover over) */
+	display: none;
+}
+
+/*when hover on list item display the sub-menu an unordered list*/
+#navmenu  ul li:hover ul{  display: block; }
+
+/*
+#navmenu ul li:hover ul, li.over ul {
+	display: block;
+} */
+
+
+/* style the text for the sub-menu */
+#navmenu li ul li a {
+	color : #FF1493;
+}
+
+* html .group,
+* html #navmenu ul li a {
+height: 1%;
+}
+
+
+*:first-child+html .group {
+min-height: 1px;
+}
+
+* html #navmenu ul ul {
+//display: inline;
+}
+* html #navmenu ul li { /*float: left;*/ }
+* html #navmenu ul li ul {/* float: left;*/ }
+
+
+
+* {
+padding:0;
+margin:0;
+}
+
+
+
+
+
+a {
+color:#047;
+text-decoration:none;
+}
+
+a:hover {
+color:#c00;
+
+}
+
+#container {
+width:911px; /* this has nothing to do with the '911' event */
+margin:0 auto;
+position:absolute;
+left : 175px;
+}
+
+#container h6 { /* this is the block for the provencefoodandwine.com header */
+
+font-size: 34pt;/*27pt; */
+font-weight:normal;
+font-family : Verdana;
+letter-spacing:-1px;
+width:800px; /*600px;*/
+padding:48px 0 25px 0;
+}
+
+#container h6 a {
+/*color:#990099; fuchsia */
+
+text-decoration:none;
+}
+
+
+#container h6 a:hover {
+color:#c00;
+}
+
+#bubble {
+top:40px;
+right:0;
+position:absolute;
+display:block;
+height:28px;
+background:url(images/bubble_right.gif) no-repeat right;
+}
+
+#bubble p {
+display:block;
+font-size:11px;
+color:#fff;
+height:28px;
+padding:4px 12px 0 10px;
+background:url(images/bubble_left.gif) no-repeat top left;
+}
+
+#content {
+position:absolute;
+left : 200px;
+margin-top : 162px;
+padding-top:3px;
+width:500px;
+z-index : -1;
+}
+
+#content h1 {
+font-size:20px;
+margin:5px 0 7px 0;
+}
+
+#content h1 a {
+color:#222;/* this is the title for a post*/
+
+text-decoration:none;
+}
+
+#content h1 a:hover {
+color:#c00;
+}
+
+#content h1.archive { /* text for heading when e.g. resuarant category is clicked, shows Archive for Restaurant heading*/
+font-weight:normal;
+font-size:22px;
+color: #1c1c1c;
+padding:0;
+margin:5px 0 20px 0;
+border:none;
+text-align:left;
+}
+
+#content img a {
+ color : #00ff00;
+}
+
+
+#content img a:hover {
+ color : #00ff00;
+}
+
+
+.comments {
+color:#333;
+text-transform : uppercase;
+margin:0 0 15px 0;
+/*border-bottom:#bbb 1px solid; */
+}
+
+.comments a {
+background:#fff;
+padding:0 7px 5px 0;
+color:#333;
+text-decoration:none;
+}
+
+.comments a:hover {
+color:#c00;
+}
+
+.navigation {
+background:#f9f9f9;
+font-size:11px;
+padding:5px 10px;
+margin:0 0 20px 0;
+border-top:#bbb 1px solid;
+}
+
+.navigation a {
+color:#555;
+font-weight:bold;
+text-decoration:none;
+}
+
+.navigation a:hover {
+color:#333;
+text-decoration:none;
+}
+
+.main h3 {
+font-size:16px;
+font-weight:normal;
+margin:0 0 15px 0;
+}
+
+.main h4 { /*for the establishment type, no gap on the bottom */
+font-size:14px;
+font-weight:normal;
+text-transform : uppercase;
+margin:0 0 0px 0;
+color:#990099;
+}
+.main h5{ /*for the region, gap on the bottom */
+font-size:14px;
+font-weight:normal;
+margin:0 0 15px 0;
+}
+
+
+.main img {
+padding:2px;
+/*border:#ddd 2px solid;*/
+}
+
+.main a img {
+padding:2px;
+border : #ff0000;
+/*border:#ffffff 2px solid; */
+}
+
+.main a:hover img {
+padding:2px;
+/*border:#ca0002 2px solid; */
+}
+
+.main p {
+line-height:18px;
+margin:0 0 15px 0;
+text-decoration: none!important;
+}
+
+.main ol {
+line-height:18px;
+margin:0 0 15px 30px;
+}
+
+.main ul {
+line-height:18px;
+margin:0 0 15px 30px;
+}
+
+.main li {
+margin:0 0 5px 0;
+}
+
+.meta { /*This is text for written by/posted date/time, tags, categories */
+/*background:#f3f3f3;      */
+font-size:11px;
+line-height:15px;
+color:#333;
+padding:5px 0px;
+margin:0 0 30px 0;
+border-bottom:#bbb 1px solid;
+}
+
+.signature {
+float:left;
+padding:0 0px 0 0;
+/*border-right:#bbb 1px solid;*/
+width:500px;
+text-transform : uppercase;
+color : green;
+}
+
+.tags { /* text for 'posted in' and 'tagged with' */
+float:left;
+padding:0 0 0 15px;
+width:440px;
+text-transform : uppercase;
+color:#990099;
+}
+
+
+#sidebar-left {
+	font-size:12px;
+	position :absolute;
+
+    left : -90px;
+
+
+
+	top : 240px;
+	width:200px;
+	/* border-left:#999 1px solid;
+	//border-right:#999 1px solid;       */
+	padding:0 15px 20px 15px;
+	margin:0 0 20px 0;
+	/* background-color : #ff0000;        */
+	z-index : -1;
+}
+
+#authorImage {
+
+	position : absolute;
+	background:  url('images/mary-dowey-green-shirtSmall.jpg') no-repeat;
+	height: 138px;
+	width:  112px;
+}
+
+#sidebar { /* Text for sidebar headings, not the links */
+font-size:12px;
+/*float :right; */
+position : absolute;
+top : 240px;
+left : 730px;
+width:220px;
+height : 400px;
+/*border-left:#999 1px solid;
+//border-right:#999 1px solid;                  */
+padding:0 15px 20px 15px;
+margin:0 0 20px 0;
+	z-index : -1;
+}
+
+#sidebar h3 {
+font-size:14px;
+margin:20px 0 5px 0;
+
+}
+
+#sidebar ul {
+list-style:none;
+}
+#sidebar-left ul {
+list-style:none;
+}
+
+#sidebar ul ul {
+margin:5px 0 0 10px;
+}
+
+#sidebar ul ul ul {
+margin:5px 0 0 10px;
+}
+
+#sidebar ul li {
+padding:0 0 5px 0;
+}
+
+.amazonAd {
+  position :relative;
+  display : inline;
+  padding-right:30px;
+  padding-bottom:50px;
+}
+
+
+#author h3 {
+margin:5px 0 5px 0;
+}
+
+.searchCaption {
+color : #990099; 
+font-size:14px;
+}
+
+.aboutCaption {
+	position : absolute; 
+	left:150px;
+	color : #990099; 
+	font-size:14px;  
+	padding-bottom : 9px;
+	width : 130px;
+	
+}
+
+.papillonCaption {
+	position : relative; 
+	left:150px;
+	color : #990099; 
+	font-size:14px;  
+	top: -100px;
+	width : 130px;
+	
+}
+
+#papillonImage {
+
+	position : relative;
+	background:  url('images/papillonSmall.jpg') no-repeat;
+	top: 50px;
+	height: 149px;
+	width:  124px;
+}
+.otherSitesAndBooks {
+	color : #990099; 
+	font-size:14px;
+	padding-bottom: 6px;
+}
+
+#searchform {
+margin:10px 0 0 0;
+}
+
+#searchform input {
+background:#222;
+font-size:11px;
+margin:5px 0;
+padding:1px 4px 2px 4px;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#eee;
+}
+
+#searchform input:hover {
+background:#333;
+border:#999 1px solid;
+color:#fff;
+cursor:pointer;
+}
+
+#searchform #s {
+background:#f6f6f6;
+font-size:11px;
+margin:2px 0;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+#searchform #s:hover {
+border:#c00 1px solid;
+cursor:text;
+}
+
+input.searchfield {
+background:#f6f6f6;
+font-size:11px;
+display:block;
+margin:5px 0 8px 0;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+input.searchfield:hover {
+background:#eee;
+color:#222;
+}
+
+input.submit {
+background:#222;
+font-size:11px;
+display:block;
+margin:0 0 10px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#eee;
+}
+
+input.submit:hover {
+background:#333;
+cursor:pointer;
+border:#999 1px solid;
+color:#fff;
+}
+
+input.subcom {
+background:#eee;
+font-size:11px;
+margin:0 0 10px 0;
+padding:1px 4px 2px 4px;
+border:#888 1px solid;
+color:#222;
+}
+
+input.subcom:hover {
+background:#222;
+cursor:pointer;
+border:#888 1px solid;
+color:#eee;
+}
+
+input.comment {
+background:#f6f6f6;
+font-size:11px;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+input.comment:hover {
+border:#c00 1px solid;
+}
+
+textarea {
+background:#f6f6f6;
+font-size:12px;
+width:400px;
+padding:2px 4px;
+border:#aaa 1px solid;
+color:#222;
+}
+
+textarea:hover {
+border:#c00 1px solid;
+}
+
+.postinput small {
+font-size:11px;
+margin:0 0 0 5px;
+}
+
+p.logged {
+font-size:12px;
+}
+
+h3.reply {
+font-size:15px;
+margin:0 0 10px 0;
+}
+
+.nocomments {
+margin:0 0 30px 0;
+}
+
+ol.commentlist {
+font-size:12px;
+list-style:none;
+margin:10px 0 30px 0;
+border-bottom:#bbb 1px solid;
+}
+
+.commentlist li {
+border-top:#bbb 1px solid;
+padding:0 0 10px 0;
+}
+
+.commentlist li.bypostauthor {
+border-top:#bbb 5px solid;
+background-color:#f3f3f3;
+}
+
+.comment_mod {
+margin:10px 0 0 10px;
+}
+
+.comment_mod em {
+background-color:#fff897;
+padding:1px 3px;
+}
+
+.comment_author {
+margin:10px 0;
+float:right;
+width:190px;
+}
+
+.comment_author img {
+float:left;
+margin:5px 12px 0 0;
+}
+
+.comment_author p {
+line-height:20px;
+}
+
+.comment_author small {
+font-size:11px;
+}
+
+.comment_text {
+float:left;
+width:470px;
+margin:0 0 0 10px;
+}
+
+.comment_text p {
+line-height:18px;
+margin:7px 0;
+}
+
+.comment_meta {
+font-size:12px;
+}
+
+#commentform p {
+line-height:18px;
+margin:0 0 15px 0;
+}
+
+.dateFormat p {
+	text-transform : uppercase;
+	color: green;
+	//padding-top : 20px;
+	padding-bottom : 10px;
+}
+
+blockquote {
+background:url(images/quote.gif) no-repeat top left;
+padding:0 0 0 60px;
+min-height:50px;
+}
+
+#footer {
+background:#eee;
+font-size:11px;
+color:#555;
+margin:0 auto;
+padding:10px 0;
+text-align:center;
+position:relative;
+border-top:#bbb 1px solid;
+/* black border on bottom of page border-bottom:#222 6px solid; */
+}
+
+#footer a {
+color:#555;
+font-weight:bold;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#333;
+text-decoration:none;
+}
+
+.clear {
+clear:both;
+}
+
+.warning p {
+background:url(images/warning.gif) no-repeat left;
+height:160px;
+padding:20px 0 0 90px;
+font-size:20px;
+margin:0 0 0 10px;
+}
+
+#wp-calendar {
+padding:10px 0 0 0;
+font-size:12px;
+}
+
+#wp-calendar caption {
+text-align:left;
+padding:0 0 5px 0;
+}
+
+#wp-calendar tr th,
+#wp-calendar tr td {
+padding:0 6px 0 0 ;
+text-align:right;
+}
+
+#wp-calendar td a {
+font-weight:bold;
+}
+
+#wp-calendar td a:hover {
+font-weight:bold;
+}
+
+img.wp-smiley {
+padding:0;
+border:none;
+}
+
+input:focus, textarea:focus{
+background-color:#ffc;
+}
+
+abbr {
+border:none;
+}
+
+.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+.wp-caption {
+//border:1px solid #ddd;
+text-align:center;
+background-color:#f3f3f3;
+padding-top:4px;
+margin:10px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+
+.wp-caption img {
+margin:0;
+padding:0;
+border:0 none;
+}
+
+.wp-caption-dd {
+font-size:11px;
+line-height:17px;
+padding:0 4px 5px;
+margin:0;
+}
+
+/* self-clear floats */
+
+.group:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+/* IE Hacks */
+
+*html #bubble {
+display:none;
+}
+
+*html #bubble p {
+display:none;
+}
+
