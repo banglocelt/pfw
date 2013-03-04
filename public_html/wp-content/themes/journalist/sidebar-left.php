@@ -14,7 +14,7 @@
     <br/>
 
     <div style="font-size : 10pt; position: absolute; top:123px; left:150px;" >mdowey@iol.ie</div>
-    <br/> <br/> <br/> <br/>
+    <br/> <br/> <br/> 
 
 <!-- email address as link
     <div style="position : absolute; top:105px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
@@ -34,7 +34,7 @@
 
     <?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) {} ?>
 
-    <div class="superSponsors">SUPER SPONSORS  <br/> <div style="font-weight:normal;"> OF THIS SITE</div></div>
+    <div class="superSponsors">SUPER SPONSORS  <br/> <!--<div style="font-weight:normal;"> OF THIS SITE</div>--></div>
         <br/>
     <ul>
 		<li><a href="http://www.provenceguide.co.uk/" title="A wealth of information for visitors to Provence's biggest region, the Vaucluse">
@@ -48,10 +48,10 @@
         <br/>
         <li><a href="http://www.jnwine.com" title="Wine merchant with excellent selection - buy online for delivery UK or Ireland ">
 		<div id="jnWineLogo"></div> </a></li>
-		<br/>
+		
 		<li><a href="http://www.vins-luberon.fr/en/" title="Lively Luberon wines site with excellent tourist information">
 		<div id="luberonLogo"></div> </a></li>
-		<br/>
+		
 		<li><a href="http://www.ardeche-guide.com/ardeche-tourisme/en/1/home_page.html?utm_source=provencefoodandwine&utm_medium=banniere&utm_campaign=partenariatprovence" title="At Provence's back door, dramatic scenery and superb food products">
 		<div id="ardecheLogo"></div> </a></li>
         
@@ -59,12 +59,98 @@
         <!--<li><a href="http://www.worldfirst.com/for-you/foreign-exchange/?ID=988" title="A leading currency brokerage that offers bank-beating exchange rates and service ">
 		<div id="worldFirstLogo"></div> </a></li>-->
 	</ul>
-
+<br/> 
+	<div class="superSponsors"> BEST OF THE BEST</div> <br/> 
+	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
+	    
+    <ul>
+		<li><a href="http://www.provencefoodandwine.com/2011/07/11/cooking-in-provence/" title="COOKING IN PROVENCE">
+		<div id="best1CookingInProvence"></div> </a> <div style="position:relative;padding-top:3px">COOKING IN PROVENCE</div> <br/>
+		<div id="bestofbest_dropdown"> 
+			<ul id="bestofbest_dropdown">
+				<li>Go To ->
+					<ul>
+						<li><a href="http://www.provencefoodandwine.com/2011/07/11/cooking-in-provence/">Post</a></li>
+						<li><a href="http://www.cookinginprovence.fr">Website</a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+		
+		</li>
+		
+		<li><a href="http://www.provencefoodandwine.com/2010/05/19/auberge-du-vin/" title="AUBERGE DU VIN">
+		<div id="best2AubergeDuVin"></div> </a> <div style="position:relative;padding-top:3px"; >AUBERGE DU VIN</div> <br/></li>
+		<div id="bestofbest_dropdown"> 
+			<ul id="bestofbest_dropdown">
+				<li>Go To ->
+					<ul>
+						<li><a href="http://www.provencefoodandwine.com/2010/05/19/auberge-du-vin/">Post</a></li>
+						<li><a href="http://www.aubergeduvin.com">Website</a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/" title="BASTIDE DU CLAUX">
+		<div id="best3BastideDuClaux"></div> </a> <div style="position:relative;padding-top:3px"; >BASTIDE DU CLAUX</div> <br/></li>
+		<div id="bestofbest_dropdown"> 
+			<ul id="bestofbest_dropdown">
+				<li>Go To ->
+					<ul>
+						<li><a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/">Post</a></li>
+						<li><a href="http://www.bastideduclaux.fr">Website</a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Egrave;">
+		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Egrave;</div> <br/></li>
+		<div id="bestofbest_dropdown"> 
+			<ul id="bestofbest_dropdown">
+				<li>Go To ->
+					<ul>
+						<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/">Post</a></li>
+						<li><a href="http://www.chateaupesquie.com">Website</a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="KELLY McAULIFFE WINE TOURS">
+		<div id="best5KellyMcAuliffeWineTours"></div> </a> <div style="position:relative;width:180px; padding-top:3px;" >KELLY McAULIFFE WINE TOURS</div> <br/></li>
+		<div id="bestofbest_dropdown"> 
+			<ul id="bestofbest_dropdown">
+				<li>Go To ->
+					<ul>
+						<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/">Post</a></li>
+						<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours">Website</a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="CH&Acirc;TEAU LA COSTE">
+		<div id="best6ChateauLaCoste"></div> </a> <div style="position:relative;padding-top:3px;class="recentPosts">CH&Acirc;TEAU LA COSTE</div> <br/></li>
+		<div id="bestofbest_dropdown"> 
+			<ul id="bestofbest_dropdown">
+				<li>Go To ->
+					<ul>
+						<li><a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/">Post</a></li>
+						<li><a href="http://www.chateau-la-coste.com">Website</a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+	</ul>
+	
+	<!--
 	<br/> <br/>
 	
 	<a href="http://www.provencefoodandwine.com/how-and-why-to-sponsor" title="How(and Why) to become a Sponsor">
 		<div class="recentPosts">HOW (AND WHY) TO <br/> BECOME A SPONSOR </div>
-    </a> 
+    </a>--> 
 	
    <!--
 	<a href="http://www.frenchconnections.co.uk/en/accommodation/property/105861"; title="STAY AT MARY'S SMALL HOUSE IN PROVENCE">
