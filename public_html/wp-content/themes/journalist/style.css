@@ -1312,6 +1312,23 @@ display:none;
 }
 
 
+#postOrWebsite {
+	position:relative;
+	display:block;
+	width:180px;	
+	top: -13px;
+}
+
+
+#postOrWebsite ul li{
+	position:relative;
+	display:inline-block; 
+}
+#postOrWebsite ul li a{
+	color : #5e8ce9; 
+}
+
+
 #bestofbest_dropdown {
 	position : relative; 
 	

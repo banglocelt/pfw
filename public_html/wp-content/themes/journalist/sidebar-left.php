@@ -65,8 +65,18 @@
 	    
     <ul>
 		<li><a href="http://www.provencefoodandwine.com/2011/07/11/cooking-in-provence/" title="COOKING IN PROVENCE">
-		<div id="best1CookingInProvence"></div> </a> <div style="position:relative;padding-top:3px">COOKING IN PROVENCE</div> <br/>
-		<div id="bestofbest_dropdown"> 
+				<div id="best1CookingInProvence"></div> 
+			</a> 
+			<div style="position:relative;padding-top:3px">COOKING IN PROVENCE</div> <br/>
+		
+			<div id="postOrWebsite">
+				<ul>
+					<li>Go To ->  <a href="http://www.provencefoodandwine.com/2011/07/11/cooking-in-provence/" title="Read the Post"> Post</a> </li>
+					<li><a href="http://www.cookinginprovence.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+				</ul>
+			
+			</div>
+		<!--<div id="bestofbest_dropdown"> 
 			<ul id="bestofbest_dropdown">
 				<li>Go To ->
 					<ul>
@@ -75,13 +85,21 @@
 					</ul>
 				</li>
 			</ul>
-	    </div>
+	    </div>-->
 		
 		</li>
 		
+		
 		<li><a href="http://www.provencefoodandwine.com/2010/05/19/auberge-du-vin/" title="AUBERGE DU VIN">
 		<div id="best2AubergeDuVin"></div> </a> <div style="position:relative;padding-top:3px"; >AUBERGE DU VIN</div> <br/></li>
-		<div id="bestofbest_dropdown"> 
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/05/19/auberge-du-vin/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.aubergeduvin.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		
+		</div>
+		<!--<div id="bestofbest_dropdown"> 
 			<ul id="bestofbest_dropdown">
 				<li>Go To ->
 					<ul>
@@ -90,11 +108,18 @@
 					</ul>
 				</li>
 			</ul>
-	    </div>
+	    </div>-->
 		
 		<li><a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/" title="BASTIDE DU CLAUX">
 		<div id="best3BastideDuClaux"></div> </a> <div style="position:relative;padding-top:3px"; >BASTIDE DU CLAUX</div> <br/></li>
-		<div id="bestofbest_dropdown"> 
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.bastideduclaux.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		
+		</div>
+		<!--<div id="bestofbest_dropdown"> 
 			<ul id="bestofbest_dropdown">
 				<li>Go To ->
 					<ul>
@@ -103,11 +128,18 @@
 					</ul>
 				</li>
 			</ul>
-	    </div>
+	    </div>-->
 		
 		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Egrave;">
 		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Egrave;</div> <br/></li>
-		<div id="bestofbest_dropdown"> 
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.chateaupesquie.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		
+		</div>
+		<!--<div id="bestofbest_dropdown"> 
 			<ul id="bestofbest_dropdown">
 				<li>Go To ->
 					<ul>
@@ -116,11 +148,17 @@
 					</ul>
 				</li>
 			</ul>
-	    </div>
+	    </div>-->
 		
 		<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="KELLY McAULIFFE WINE TOURS">
 		<div id="best5KellyMcAuliffeWineTours"></div> </a> <div style="position:relative;width:180px; padding-top:3px;" >KELLY McAULIFFE WINE TOURS</div> <br/></li>
-		<div id="bestofbest_dropdown"> 
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="Read the Post"> Post</a> </li>
+			</ul>
+		
+		</div>
+		<!-- <div id="bestofbest_dropdown"> 
 			<ul id="bestofbest_dropdown">
 				<li>Go To ->
 					<ul>
@@ -129,11 +167,19 @@
 					</ul>
 				</li>
 			</ul>
-	    </div>
+	    </div>-->
 		
 		<li><a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="CH&Acirc;TEAU LA COSTE">
 		<div id="best6ChateauLaCoste"></div> </a> <div style="position:relative;padding-top:3px;class="recentPosts">CH&Acirc;TEAU LA COSTE</div> <br/></li>
-		<div id="bestofbest_dropdown"> 
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.chateau-la-coste.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		
+		</div>
+		
+		<!--<div id="bestofbest_dropdown"> 
 			<ul id="bestofbest_dropdown">
 				<li>Go To ->
 					<ul>
@@ -142,7 +188,7 @@
 					</ul>
 				</li>
 			</ul>
-	    </div>
+	    </div>-->
 	</ul>
 	
 	<!--
@@ -162,9 +208,9 @@
     
 
 		
-    <div style="position:relative; padding-top:20px; padding-bottom:30px">
-		<?php wp_tag_cloud(apply_filters('widget_tag_cloud_args', array()));    ?>
-	</div>
+    <!--Remove tag cloud, now on right sidebar <div style="position:relative; padding-top:20px; padding-bottom:30px"> -->
+		<?php //wp_tag_cloud(apply_filters('widget_tag_cloud_args', array()));    ?>
+	<!--</div>-->
 
     <div class="otherSitesAndBooks">OTHER SITES WORTH FOLLOWING</div>
 	<ul>
