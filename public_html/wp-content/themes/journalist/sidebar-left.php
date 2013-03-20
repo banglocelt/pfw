@@ -8,13 +8,12 @@
 		ABOUT <br/>MARY DOWEY <br/>FOOD & WINE <br/> WRITER IN <br/> PROVENCE </div>  </a>
     <br/><br/><br/><br/><br/><br/>
 
-    <a href="mailto:mdowey@iol.ie" Send email to Mary Dowey; title="Contact"
-    style="position : absolute; top:105px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
+    <a href="mailto:marydowey@gmail.com" Send email to Mary Dowey; title="Contact"
+    style="position : absolute; top:122px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
     CONTACT</a>
     <br/>
 
-    <div style="font-size : 10pt; position: absolute; top:123px; left:150px;" >mdowey@iol.ie</div>
-    <br/> <br/> <br/> 
+    <br/> <br/>	
 
 <!-- email address as link
     <div style="position : absolute; top:105px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
