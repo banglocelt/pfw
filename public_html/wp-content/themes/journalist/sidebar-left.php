@@ -130,8 +130,8 @@
 			</ul>
 	    </div>-->
 		
-		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Egrave;">
-		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Egrave;</div> <br/></li>
+		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Eacute;">
+		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Eacute;</div> <br/></li>
 		<div id="postOrWebsite">
 			<ul>
 				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="Read the Post"> Post</a> </li>
