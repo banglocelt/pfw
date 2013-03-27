@@ -98,7 +98,7 @@ left :50%;
 }
 #vaucluseTourismLogo {
 
-	background:  url('images/mediumVaucluseLogo.jpg') no-repeat;
+	background:  url('images/vaucluseLogoMar2013.jpg') no-repeat;
 	height: 46px;
 	width:  190px;
 	display: block;
@@ -245,6 +245,39 @@ left :50%;
 	display: block;
 	position: relative;
    /* left : 40px;*/
+}
+
+#best7DomaineDuGrap {
+
+	background:  url('images/Grapillon_dor_190.jpg') no-repeat;
+    
+	height: 101px;
+	width:  190px;
+	display: block;
+	position: relative;
+   
+}
+
+#best8Castelas {
+
+	background:  url('images/Castelas_oil_pair190.jpg') no-repeat;
+    
+	height: 98px;
+	width:  190px;
+	display: block;
+	position: relative;
+   
+}
+
+#best8ClosdesPapes {
+
+	background:  url('images/Clos_des_Papes_Vincent190.jpg') no-repeat;
+    
+	height: 104px;
+	width:  190px;
+	display: block;
+	position: relative;
+   
 }
 
 #michelinGreenGuide {

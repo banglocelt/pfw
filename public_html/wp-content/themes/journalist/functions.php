@@ -28,7 +28,7 @@ class Provence_Books {
 	<div id="michelinGreenGuide"></div>
 <br/>
         <div style="position:relative"> OUT NOW : 
-		 <span style="font-weight:bold;"> Michelin Green Guide to Provence 2012 </span> , edited by Mary Dowey.
+		 <span style="font-weight:bold;"> Michelin Green Guide to Provence</span>, edited by Mary Dowey.
 		</div>
 
 		
