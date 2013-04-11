@@ -1410,3 +1410,5 @@ padding-left:5px;
 	
 	/*position : absolute;*/
 }
+
+li.widget { list-style: none }

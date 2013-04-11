@@ -234,4 +234,9 @@ mushrooms            <br/>
 walnuts              <br/>
 almonds              <br/>
 
+
+<br/>
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("sidebar-left") ) :  endif; ?>
+
 </div>
+
