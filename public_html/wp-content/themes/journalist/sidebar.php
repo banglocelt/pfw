@@ -111,7 +111,7 @@ EMAIL UPDATES
 <img style="border:none" src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" title="Follow ProvenceFood on Twitter" alt="Follow ProvenceFood on Twitter"/></a>
 </div>
 
-<br/> 
+
 
 
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
