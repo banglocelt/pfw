@@ -98,7 +98,16 @@ EMAIL UPDATES
    endif; ?>
    
    
-<br /><br />
+<br />
+
+<div class="searchCaption">
+	<a class="searchCaption" href ="http://www.provencefoodandwine.com/?cat=314";
+         title="Itineraries - interesting things to do during your stay"> ITINERARIES </a>
+	
+	</a>
+</div>
+
+<br />
 
 <div class="searchCaption">SUBSCRIBE BY FEED
 	<a href="feed:<?php bloginfo('rss2_url'); ?>" title="<?php _e('Provence food and wine RSS feed'); ?>">
