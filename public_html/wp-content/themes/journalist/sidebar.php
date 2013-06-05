@@ -29,7 +29,7 @@ EMAIL UPDATES
 	<input class="searchfield" name="uri"  type="hidden" value="provencefoodwine">
 	<input class="submit" type="submit" value="Subscribe">
 	</div>
-	Powered by <a href="http://www.feedburner.google.com">FeedBurner</a>
+	Powered by <a href="http://feedburner.google.com">FeedBurner</a>
 
 </form>
 
@@ -102,12 +102,12 @@ EMAIL UPDATES
 
 <div class="searchCaption">
 	<a class="searchCaption" href ="http://www.provencefoodandwine.com/?cat=314";
-         title="Itineraries - interesting things to do during your stay"> ITINERARIES </a>
+         title="Itineraries - interesting things to do during your stay"> ITINERARIES - PLAN YOUR TRIP</a>
 	
 	</a>
 </div>
 
-<br />
+<br /><br />
 
 <div class="searchCaption">SUBSCRIBE BY FEED
 	<a href="feed:<?php bloginfo('rss2_url'); ?>" title="<?php _e('Provence food and wine RSS feed'); ?>">

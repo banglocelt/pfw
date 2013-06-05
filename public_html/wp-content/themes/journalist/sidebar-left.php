@@ -149,26 +149,15 @@
 		
 	</ul>
 	
-	<!--
-	<br/> <br/>
+	<br/> 
 	
-	<a href="http://www.provencefoodandwine.com/how-and-why-to-sponsor" title="How(and Why) to become a Sponsor">
-		<div class="recentPosts">HOW (AND WHY) TO <br/> BECOME A SPONSOR </div>
-    </a>--> 
-	
-   <!--
-	<a href="http://www.frenchconnections.co.uk/en/accommodation/property/105861"; title="STAY AT MARY'S SMALL HOUSE IN PROVENCE">
-        <div id="papillonImage"></div></a>
+	<div class="otherSitesAndBooks">
+		<a class="otherSitesAndBooks" href ="http://www.provencefoodandwine.com/testimonials" 
+			title="WHAT OTHER READERS SAY ABOUT provencefoodandwine.com "> WHAT OTHER READERS SAY ABOUT provencefoodandwine.com </a>
+	</div>
 
-    <a href="http://www.frenchconnections.co.uk/en/accommodation/property/105861"; title="STAY AT MARY'S SMALL HOUSE IN PROVENCE "> 
-	<div class="papillonCaption"  >
-		STAY AT <br/>MARY'S <br/>CHARMING <br/>HOUSE<br/> IN PROVENCE  </div>  </a> -->
-    
+	<br/> 
 
-		
-    <!--Remove tag cloud, now on right sidebar <div style="position:relative; padding-top:20px; padding-bottom:30px"> -->
-		<?php //wp_tag_cloud(apply_filters('widget_tag_cloud_args', array()));    ?>
-	<!--</div>-->
 
     <div class="otherSitesAndBooks">OTHER SITES WORTH FOLLOWING</div>
 	<ul>
