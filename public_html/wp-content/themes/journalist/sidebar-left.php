@@ -153,7 +153,7 @@
 	
 	<div class="otherSitesAndBooks">
 		<a class="otherSitesAndBooks" href ="http://www.provencefoodandwine.com/testimonials" 
-			title="WHAT OTHER READERS SAY ABOUT provencefoodandwine.com "> WHAT OTHER READERS SAY ABOUT provencefoodandwine.com </a>
+			title="WHAT READERS SAY ABOUT provencefoodandwine.com "> WHAT READERS SAY ABOUT provencefoodandwine.com </a>
 	</div>
 
 	<br/> 
