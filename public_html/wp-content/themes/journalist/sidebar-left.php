@@ -62,16 +62,6 @@
 	    
     <ul>
 			
-		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Eacute;">
-		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Eacute;</div> <br/></li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.chateaupesquie.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		
-		</div>
-		
 		<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="KELLY McAULIFFE WINE TOURS">
 		<div id="best5KellyMcAuliffeWineTours"></div> </a> <div style="position:relative;width:180px; padding-top:3px;" >KELLY McAULIFFE WINE TOURS</div> <br/></li>
 		<div id="postOrWebsite">
@@ -143,6 +133,16 @@
 			<ul>
 				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/" title="Read the Post"> Post</a> </li>
 				<li><a href="http://www.bastideduclaux.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		
+		</div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Eacute;">
+		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Eacute;</div> <br/></li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.chateaupesquie.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
 			</ul>
 		
 		</div>
