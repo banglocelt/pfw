@@ -350,6 +350,16 @@ left :50%;
 
 }
 
+#cassisBandolWineGuide {
+    background:  url('images/CassisBandolDecanter_160.jpg') no-repeat;
+	height: 90px;
+	width:  160px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
 #garlicLogo {
 
 	top : 78px;

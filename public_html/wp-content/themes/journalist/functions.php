@@ -52,20 +52,29 @@ class Provence_Books {
 		<div id="provenceWineTravelGuide"></div>
 		<br/> 
 		<div style="position:relative;">PROVENCE WINE TRAVEL GUIDE : To catch the flavour of Mary's journey into ros&eacute; territory for 
-		<span style="font-weight:bold;">Decanter</span> magazine (full report in the May 2012 issue), click 	
+		<span style="font-weight:bold;">Decanter</span> magazine (published in the May 2012 issue), click 	
 			<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2012/04/Decanter-Provence-travel-MAY-2012.pdf" >here</a> 
         </div> 
 		
   <br/> <br/> 
 		<div id="luberonWineGuide"></div>
 		<br/> 
-		<div style="position:relative;">LUBERON WINE TRAVEL GUIDE : To read Mary's top Luberon tips in the December 2011 issue of
+		<div style="position:relative;">LUBERON WINE TRAVEL GUIDE : To read Mary's top Luberon tips published in the December 2011 issue of
 		<span style="font-weight:bold;">Decanter</span> magazine, click 
 		<!-- Embed PDF File 
 		<OBJECT data="Decanter Luberon travel.pdf" TYPE="application/x-pdf" TITLE="Decanter Luberon Travel" width="500" height="375" >-->
 			<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2011/12/Decanter-Luberon-travel.pdf" >here</a> 
 		<!--</object> -->
-        </div> 
+        </div>
+	<br/> <br/> 
+		<div id="cassisBandolWineGuide"></div>
+		<br/> 
+		<div style="position:relative;">CASSIS & BANDOL WINE TRAVEL GUIDE : To read Mary's report on two enchanting little wine regions beside the Mediterranean for
+		<span style="font-weight:bold;">Decanter</span> magazine (published in the August 2013 issue), click  
+		<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2013/08/Decanter-Cassis-Bandol-AUG13.pdf" >here</a> 
+		
+        </div>
+		
 <?php
     }
 }
