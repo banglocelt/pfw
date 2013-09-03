@@ -359,7 +359,15 @@ left :50%;
     left: 40px;
 
 }
+#oliveMagazine {
+    background:  url('images/oliveMagazineSmall.jpg') no-repeat;
+	height: 191px;
+	width:  160px;
+	display: block;
+	position: relative;
+    left: 40px;
 
+}
 #garlicLogo {
 
 	top : 78px;

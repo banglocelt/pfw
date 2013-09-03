@@ -47,8 +47,25 @@ class Provence_Books {
         <div style="position:relative;">A 2011 BESTSELLER <span style="font-weight:bold;">The Wine Opus</span>
         , US title <span style="font-weight:bold;">Opus Vino</span> (Dorling Kindersley),
         a guide to over 4,000 of the world's greatest wineries. In it, Mary writes
-        about 88 top estates in the Southern Rhone. Don't miss it.</div>
+        about 88 top estates in the Southern Rhone. Don't miss it.</div>	
+		
+	<br/> <br/> 	
+        
+		<div id="oliveMagazine"></div>
+		<br/> 
+		<div style="position:relative;">THE BIG TRIP - PROVENCE: For Mary’s round-up of great eating and drinking addresses for 
+		<span style="font-weight:bold;">Olive</span> magazine (published in the October 2013 issue), click 	
+			<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2013/09/Olive-magazine-Provence-Oct-2013.pdf">here</a> 
+        </div> 
+		
   <br/> <br/> 
+		<div id="cassisBandolWineGuide"></div>
+		<br/> 
+		<div style="position:relative;">CASSIS & BANDOL WINE TRAVEL GUIDE : To read Mary's report on two enchanting little wine regions beside the Mediterranean for
+		<span style="font-weight:bold;">Decanter</span> magazine (published in the August 2013 issue), click  
+		<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2013/08/Decanter-Cassis-Bandol-AUG13.pdf" >here</a> 
+	<br/> <br/> 	
+        </div>
 		<div id="provenceWineTravelGuide"></div>
 		<br/> 
 		<div style="position:relative;">PROVENCE WINE TRAVEL GUIDE : To catch the flavour of Mary's journey into ros&eacute; territory for 
@@ -65,14 +82,6 @@ class Provence_Books {
 		<OBJECT data="Decanter Luberon travel.pdf" TYPE="application/x-pdf" TITLE="Decanter Luberon Travel" width="500" height="375" >-->
 			<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2011/12/Decanter-Luberon-travel.pdf" >here</a> 
 		<!--</object> -->
-        </div>
-	<br/> <br/> 
-		<div id="cassisBandolWineGuide"></div>
-		<br/> 
-		<div style="position:relative;">CASSIS & BANDOL WINE TRAVEL GUIDE : To read Mary's report on two enchanting little wine regions beside the Mediterranean for
-		<span style="font-weight:bold;">Decanter</span> magazine (published in the August 2013 issue), click  
-		<a href= "http://www.provencefoodandwine.com/wp-content/uploads/2013/08/Decanter-Cassis-Bandol-AUG13.pdf" >here</a> 
-		
         </div>
 		
 <?php

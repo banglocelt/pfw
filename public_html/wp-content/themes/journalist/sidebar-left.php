@@ -61,26 +61,6 @@
 	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
 	    
     <ul>
-			
-		<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="KELLY McAULIFFE WINE TOURS">
-		<div id="best5KellyMcAuliffeWineTours"></div> </a> <div style="position:relative;width:180px; padding-top:3px;" >KELLY McAULIFFE WINE TOURS</div> <br/></li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="Read the Post"> Post</a> </li>
-			</ul>
-		
-		</div>
-		
-		<li><a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="CH&Acirc;TEAU LA COSTE">
-		<div id="best6ChateauLaCoste"></div> </a> <div style="position:relative;padding-top:3px;class="recentPosts">CH&Acirc;TEAU LA COSTE</div> <br/></li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.chateau-la-coste.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		
-		</div>
-		
 		<li><a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="DOMAINE DU GRAPILLON D’OR">
 				<div id="best7DomaineDuGrap"></div> </a> <div style="position:relative;padding-top:3px">DOMAINE DU GRAPILLON D'OR</div> <br/> </li>
 		<div id="postOrWebsite">
@@ -143,6 +123,25 @@
 			<ul>
 				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="Read the Post"> Post</a> </li>
 				<li><a href="http://www.chateaupesquie.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		
+		</div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="KELLY McAULIFFE WINE TOURS">
+		<div id="best5KellyMcAuliffeWineTours"></div> </a> <div style="position:relative;width:180px; padding-top:3px;" >KELLY McAULIFFE WINE TOURS</div> <br/></li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2012/08/23/kelly-mcauliffe-wine-tours/" title="Read the Post"> Post</a> </li>
+			</ul>
+		
+		</div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="CH&Acirc;TEAU LA COSTE">
+		<div id="best6ChateauLaCoste"></div> </a> <div style="position:relative;padding-top:3px;class="recentPosts">CH&Acirc;TEAU LA COSTE</div> <br/></li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2012/01/13/chateau-la-coste/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.chateau-la-coste.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
 			</ul>
 		
 		</div>
