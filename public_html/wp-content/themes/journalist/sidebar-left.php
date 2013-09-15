@@ -11,7 +11,7 @@
     <a href="mailto:marydowey@gmail.com" Send email to Mary Dowey; title="Contact"
     style="position : absolute; top:122px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
     CONTACT</a>
-    <br/> <br/> <br/>	
+    <br/> <br/> <br/>	<br/>
 
 <!-- email address as link
     <div style="position : absolute; top:105px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
