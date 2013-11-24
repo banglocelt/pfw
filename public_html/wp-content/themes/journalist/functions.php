@@ -25,6 +25,14 @@ class Provence_Books {
     function provenceBooks() {
        ?>
 	   <br/> 
+	   <div id="rickSteves"></div>
+<br/>
+        <div style="position:relative"> 
+		 <span style="font-weight:bold;"> Rick Steves' Provence and the French Riviera 2014</span> recommends provencefoodandwine.com!
+	   </div>
+
+		
+  <br/> <br/>
 	<div id="michelinGreenGuide"></div>
 <br/>
         <div style="position:relative"> OUT NOW : 

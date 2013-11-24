@@ -30,11 +30,17 @@ EMAIL UPDATES
 	<input class="submit" type="submit" value="Subscribe">
 	</div>
 	Powered by <a href="http://feedburner.google.com">FeedBurner</a>
-
 </form>
 
+<br />
 
-<div class="searchCaption"; style="padding-top : 20px; padding-bottom : 9px; font-size : 14px ">THIS MONTH'S RECIPE</div>
+<div class="searchCaption">SUBSCRIBE BY FEED
+	<a href="feed:<?php bloginfo('rss2_url'); ?>" title="<?php _e('Provence food and wine RSS feed'); ?>">
+	<div id="rssIcon"></div>
+	</a>
+</div>
+
+<div class="searchCaption"; style="padding-bottom : 9px; font-size : 14px ">THIS MONTH'S RECIPE</div>
 
 
     <?php $catID = get_cat_ID('recipes');
@@ -109,11 +115,6 @@ EMAIL UPDATES
 
 <br />
 
-<div class="searchCaption">SUBSCRIBE BY FEED
-	<a href="feed:<?php bloginfo('rss2_url'); ?>" title="<?php _e('Provence food and wine RSS feed'); ?>">
-	<div id="rssIcon"></div>
-	</a>
-</div>
 
 <div >
 <a  href="http://www.twitter.com/ProvenceFood">

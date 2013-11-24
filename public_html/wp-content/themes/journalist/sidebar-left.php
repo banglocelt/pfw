@@ -31,8 +31,8 @@
 
     <?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) {} ?>
 
-    <div class="superSponsors">SUPER SPONSORS  <br/> <!--<div style="font-weight:normal;"> OF THIS SITE</div>--></div>
-        <br/>
+    <div class="superSponsors">SUPER SPONSORS</div>
+        
     <ul>
 		<li><a href="http://www.provenceguide.co.uk/" title="A wealth of information for visitors to Provence's biggest region, the Vaucluse">
 		<div id="vaucluseTourismLogo"></div> </a></li>
@@ -60,25 +60,7 @@
 	<div class="superSponsors"> BEST OF THE BEST</div> <br/> 
 	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
 	    
-    <ul>
-		<li><a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="DOMAINE DU GRAPILLON D’OR">
-				<div id="best7DomaineDuGrap"></div> </a> <div style="position:relative;padding-top:3px">DOMAINE DU GRAPILLON D'OR</div> <br/> </li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.domainedugrapillondor.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		</div>
-		
-		<li><a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="CASTELAS">
-				<div id="best8Castelas"></div> </a> <div style="position:relative;padding-top:3px">CASTELAS</div> <br/> </li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.castelas.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		</div>
-		
+    <ul>		
 		<li><a href="http://www.provencefoodandwine.com/2010/06/04/clos-des-papes/" title="CLOS DES PAPES">
 				<div id="best8ClosdesPapes"></div> </a> <div style="position:relative;padding-top:3px">CLOS DES PAPES</div> <br/> </li>
 		<div id="postOrWebsite">
@@ -144,6 +126,24 @@
 				<li><a href="http://www.chateau-la-coste.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
 			</ul>
 		
+		</div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="DOMAINE DU GRAPILLON D’OR">
+				<div id="best7DomaineDuGrap"></div> </a> <div style="position:relative;padding-top:3px">DOMAINE DU GRAPILLON D'OR</div> <br/> </li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.domainedugrapillondor.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		</div>
+		
+		<li><a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="CASTELAS">
+				<div id="best8Castelas"></div> </a> <div style="position:relative;padding-top:3px">CASTELAS</div> <br/> </li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.castelas.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
 		</div>
 		
 	</ul>

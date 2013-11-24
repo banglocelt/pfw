@@ -280,6 +280,16 @@ left :50%;
    
 }
 
+#rickSteves {
+    background:  url('images/rickStevesProvence2014small.jpg') no-repeat;
+	height: 178px;
+	width:  100px;
+	display: block;
+	position: relative;
+    left: 40px;
+
+}
+
 #michelinGreenGuide {
     background:  url('images/smallMichelinGreenGuide.bmp') no-repeat;
 	height: 178px;
@@ -373,20 +383,10 @@ left :50%;
 	top : 78px;
 	position : absolute;
 
-	left : 585px;/*395px;*/
-	background:  url('images/blackGarlicSmall.gif') no-repeat;/*'greyGarlicSmall.png') no-repeat; */
+	left : 585px;
+	background:  url('images/blackGarlicSmall.gif') no-repeat;
 	height: 67px;
 	width:  67px;
-
-
-  	/*site launch logo pfw1.0
-	top : 38px;
-	position : absolute;
-
-	left : 650px;
-	background:  url('images/newGarlicSmall.png') no-repeat;
-	height: 55px;
-	width:  45px;*/
 }
 
 #garlicLogoSmallScreen {
@@ -394,7 +394,7 @@ left :50%;
 	top : 62px;
 	position : absolute;
 
-	left : 400px;/*387px;*/
+	left : 590px;
 	background:  url('images/greyGarlicSmall.png') no-repeat;
 	height: 55px;
 	width:  55px;
@@ -410,7 +410,8 @@ left :50%;
 }
 
 .superSponsors {
-
+	padding-top: 5px;
+	padding-bottom: 5px;
 	color: #990099;
 	text-decoration: none;
     font-size:21px;
