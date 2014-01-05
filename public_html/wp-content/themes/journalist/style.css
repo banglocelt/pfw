@@ -30,17 +30,24 @@ left :50%;
 .siteDescriptionText {
 	font-size:24.5pt;
 	font-weight:bold;
-	font-family : Franklin Gothic Medium;   /*Verdana; */
+	font-family : Franklin Gothic Medium;    
 	/*letter-spacing:-1px;*/
-	width:740px;/*450px; /*600px;*/
-	/*padding:0px 300px 300px 0px;
-  	  */
+	width:740px;
 	position : absolute;
 	top: 100px;
 	left: -75px;
 	color:#666666;
-	/*margin-left : 0px; 200px; */
-   /*margin-bottom : 50px;*/
+}
+.siteDescriptionTextIPhone {
+	font-size:20.5pt;
+	font-weight:bold;
+	font-family : Verdana;
+	/*letter-spacing:-1px;*/
+	width:740px;
+	position : absolute;
+	top: 100px;
+	left: -75px;
+	color:#666666;
 }
 
 
@@ -429,31 +436,68 @@ left :50%;
 	width : 230px;
 }
 
+.homeMenuTextAnchor {
+	position:absolute;
+   	top :8px;
+	left :20px;
+    color: black;
+  	font-weight : bold;
+}
 
 .restaurantMenuAnchor {
 	position:absolute;
-   	top :12px;
+   	top :8px;
 	left :10px;
-
+    color: black;
   	font-weight : bold;
 }
+.twoWordsOneLineMenuAnchor {
+	position:absolute;
+   	top :8px;
+	left: 8px;
+	color: black;
+  	font-weight : bold;
+}
+
+.foodProducersMenuAnchor {
+	position:absolute;
+   	top :8px;
+	left: 4px;
+	color: black;
+  	font-weight : bold;
+}
+
 .wineProducersMenuAnchor {
 	position:absolute;
    	top :5px;
 	left :10px;
+  	color: black;
+	font-weight : bold;
+}
 
+.secondLineMenuTextAnchor {
+	position:absolute;
+   	top :8px;
+	left :10px;
+    color: black;
   	font-weight : bold;
 }
 
-
+.itineraryMenuTextAnchor {
+	position:absolute;
+   	top :8px;
+	left :15px;
+    color: black;
+  	font-weight : bold;
+}
 
 /* -30px left for all menu items */
 #homeMenuItem {
 	position : absolute;
     top : -45px;
-    left : -160px;
+    left : -145px;
     width : 127px;
-  	height : 49px;
+  	height : 39px;
 
 	background:  url('images/homeMenuSolid.gif') no-repeat ;
 }
@@ -461,31 +505,26 @@ left :50%;
 #restaurantMenuItem {
 	position : absolute;
     top : -45px;
-	left: -40px;
-
+	left: -10px;/*-25px;*/
    /*
       display:inline-block;   */
-
-    width : 127px;
-  	height : 49px;
+    width : 137px;
+  	height : 39px;
 
 	background:  url('images/restaurantsMenuSolid.gif') no-repeat ;
-
-
-
 }
 
 #hotelMenuItem  {
 	position : absolute;
 
    	top : -45px;
-   left : 95px;
+   left : 135px;/*110px;*/
 
   /*
       display:inline-block;   */
 
-   width : 127px;
-   	height : 49px;
+   width : 137px;
+   	height : 39px;
 
 	background:  url('images/hotelsMenuSolid.gif') no-repeat ;
 
@@ -496,12 +535,12 @@ left :50%;
 
     top : -45px;
   	/* top : -94px; for position relative */
-    left : 220px;
+    left : 280px;/*235px;*/
 
-	width : 127px;
-	height : 49px;
+	width : 147px;/*145px;*/
+	height : 39px;
 
-	background:  url('images/wineProducersMenuSolid.gif') no-repeat ;
+	background:  url('images/wineProducersMenuSolid_OneLine.gif') no-repeat ;
     /*
       display:inline-block;   */
 }
@@ -510,11 +549,11 @@ left :50%;
 	position : absolute;
     top : -45px;
   	/*//top : -143px;  for position relative */
- 	left : 345px;
-	width : 127px;
-	height : 49px;
+ 	left : 435px;/*390px;*/
+	width : 147px;
+	height : 39px;
 
-	background:  url('images/foodProducersMenuSolid.gif') no-repeat ;
+	background:  url('images/foodProducersMenuSolid_OneLine.gif') no-repeat ;
    /*
       display:inline-block;   */
 }
@@ -524,22 +563,82 @@ left :50%;
 
     top : -45px;
     /*	//top : -192px;  for position relative */
-    left : 480px;
+    left : 590px;/*543px;*/
 
-    width : 127px;
-	height : 49px;
+    width : 135px;
+	height : 39px;
 
    	background:  url('images/shopMenuSolid.gif') no-repeat ;
     /*
       display:inline-block;   */
 }
 
+#beerMenuItem {
+	position : absolute;
+    top : 0px;
+    left : -145px;
+    width : 147px;
+  	height : 39px;
+
+	background:  url('images/beersMenuSolid.gif') no-repeat ;
+}
+
+#treatsMenuItem {
+	position : absolute;
+    top : 0px;
+    left : 10px;
+    width : 155px;
+  	height : 39px;
+
+	background:  url('images/inedibleTreatsMenuSolid.gif') no-repeat ;
+}
+
+#outingsMenuItem {
+	position : absolute;
+    top : 0px;
+    left : 173px;
+    width : 137px;
+  	height : 39px;
+
+	background:  url('images/outingsMenuSolid.gif') no-repeat ;
+}
+
+#coursesMenuItem {
+	position : absolute;
+    top : 0px;
+    left : 318px;
+    width : 134px;
+  	height : 39px;
+
+	background:  url('images/coursesMenuSolid.gif') no-repeat ;
+}
+
+#itineraryMenuItem  {
+	position : absolute;
+    top : 0px;
+    /*left : 645px;*/
+	left : 460px;
+    width : 124px;
+	height : 39px;
+	background:  url('images/itinerariesMenuSolid.gif') no-repeat ;
+}
+
+#recipesMenuItem {
+	position : absolute;
+    top : 0px;
+    left : 591px;
+    width : 134px;
+  	height : 39px;
+	background:  url('images/recipesMenuSolid.gif') no-repeat ;
+}
+
+
 #marketMenuItem  {
 	position : absolute;
 
     top : -45px;
   	/*//top : -241px;      for position relative */
-   left : 800px;
+   left : 815px;
 
     width : 103px;
 	height : 49px;
@@ -549,23 +648,9 @@ left :50%;
       display:inline-block;   */
 }
 
-#surpriseMenuItem  {
-	position : absolute;
-
-    top : -45px;
-  	/*//top : -290px;    for position relative */
-    left : 615px;/*707px;*/
-
-    width : 127px;
-	height : 49px;
-
-	background:  url('images/marketsMenuSolid.gif') no-repeat ;
-  /*  display:inline-block;*/
-}
-
 #homeMenuItem a, #restaurantMenuItem  a, #hotelMenuItem a, #wineProducerMenuItem a,
 #foodProducerMenuItem  a, #shopMenuItem a,
-#marketMenuItem  a, #surpriseMenuItem a {
+#marketMenuItem  a, #itineraryMenuItem a {
  	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 
 	font-size: 9pt;
@@ -741,8 +826,10 @@ background:url(images/bubble_left.gif) no-repeat top left;
 #content {
 position:absolute;
 left : 200px;
-margin-top : 162px;
+top: 110px;
+margin-top : 162px;/*212px;*/
 padding-top:3px;
+
 width:500px;
 z-index : -1;
 }
@@ -911,7 +998,7 @@ color:#990099;
 
 
 
-	top : 240px;
+	top : 275px;
 	width:200px;
 	/* border-left:#999 1px solid;
 	//border-right:#999 1px solid;       */
@@ -929,11 +1016,21 @@ color:#990099;
 	width:  112px;
 }
 
+#personalQuote{
+	position : relative;
+}
+
+
+#personalQuoteMobile{
+	position : relative;
+	padding-top: 20px;
+}
+
 #sidebar { /* Text for sidebar headings, not the links */
 font-size:12px;
 /*float :right; */
 position : absolute;
-top : 240px;
+top : 275px;
 left : 730px;
 width:220px;
 height : 400px;
@@ -988,7 +1085,7 @@ font-size:14px;
 
 .aboutCaption {
 	position : absolute; 
-	left:150px;
+	left:135px;
 	color : #990099; 
 	font-size:14px;  
 	padding-bottom : 9px;

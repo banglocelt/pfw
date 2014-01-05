@@ -48,6 +48,13 @@ function check_user_agent ( $type = NULL ) {
 
 $ismobile = check_user_agent('mobile');
 
+$browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+
+if ($browser == true){
+	$browser = 'iphone';
+}
+
+/*
    $agent = "";
    if(isset($_SERVER['HTTP_USER_AGENT'])) {
       $agent = $_SERVER['HTTP_USER_AGENT'];
@@ -57,7 +64,7 @@ $ismobile = check_user_agent('mobile');
    }
    else if(strlen(strstr($agent,"iPhone")) > 0 ){ 
 	  $browser = 'iphone';
-   }
+   }*/
 ?>
 
 
@@ -72,12 +79,25 @@ $ismobile = check_user_agent('mobile');
     </a>
 </h6>
 
-<div class="siteDescriptionText">a personal guide to good eating & drinking</div>
+<?php 
+	$siteDescriptionText = ($browser == 'iphone' ) ? "siteDescriptionTextIPhone" : "siteDescriptionText";
+?>	
+
+<?php
+if($browser == 'iphone' ) 
+{ ?>
+    <div class="siteDescriptionTextIPhone" >a personal guide to good eating & drinking</div>
+<?php
+} else {?>
+   <div class="siteDescriptionText" >a personal guide to good eating & drinking</div>
+
+<?php
+} ?>
+
    <!--
 add the garlic pic after the text and link it to homepage -->
 <a href="<?php bloginfo('url'); ?>/">
 <?php
-//if($browser == 'iphone')
 if( $ismobile )
 { ?>
     <div id="garlicLogoSmallScreen"></div>
@@ -88,11 +108,6 @@ if( $ismobile )
 <?php
 } ?></a>
 
-<!--
-<div id="header_img2">
- 
-</div>
--->
 
 <!--
 <div id="bubble"><p><?php //bloginfo('description'); ?></p></div>  erase this line if you want to turn the bubble off -->
@@ -209,61 +224,75 @@ function dropdown_list($catID) {
 }
 ?>
 
-
-
-
-    <div id="navmenu">
+<div id="navmenu">
   <ul >
     <li>
-        <div id="homeMenuItem"><a class="restaurantMenuAnchor" href =<?php bloginfo('url'); ?> > &nbsp;&nbsp;&nbsp;HOME </a>
+        <div id="homeMenuItem"><a class="homeMenuTextAnchor" href =<?php bloginfo('url'); ?> > &nbsp;&nbsp;&nbsp;HOME </a>
 		</div>
 	</li>
-
 
     <li>
 		 <div id="restaurantMenuItem"><a class="restaurantMenuAnchor" href ="http://www.provencefoodandwine.com/?cat=14";
          title="Restaurants listed with region"> RESTAURANTS </a>
 		</div>
 	</li>
+	
 	<li>
 		<div id="hotelMenuItem"><a class="restaurantMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=29";
         title="Hotels/B+Bs listed with region" >HOTELS/B+Bs </a>
 		</div>
 	</li>
     <li>
-		<div id="wineProducerMenuItem"><a class="wineProducersMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=3";
-        title="Wine Producers listed with region">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WINE<br/>&nbsp;PRODUCERS </a>
+		<div id="wineProducerMenuItem"><a class="twoWordsOneLineMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=3";
+        title="Wine Producers listed with region">WINE PRODUCERS</a>
 		</div>
 	</li>
     <li>
-		<div id="foodProducerMenuItem"><a class="wineProducersMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=31";
-        title="Food Producers listed with region">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOOD<br/>&nbsp;PRODUCERS </a>
+		<div id="foodProducerMenuItem"><a class="foodProducersMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=31";
+        title="Food Producers listed with region">FOOD PRODUCERS</a>
 		</div>
 	</li>
     <li>
-        <div id="shopMenuItem"><a class="wineProducersMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=45";
-        title="Shops listed with region"> &nbsp;&nbsp;&nbsp;SHOPS & <br/>&nbsp;&nbsp;&nbsp;MARKETS </a>
+        <div id="shopMenuItem"><a class="restaurantMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=45";
+        title="Shops listed with region"> &nbsp;&nbsp;&nbsp;SHOPPING </a>
 		</div>
 	</li>
-  <!--  <li>
-		<div id="marketMenuItem"><a class="restaurantMenuAnchor"  href ="?cat=55";
-        title="Markets listed with region"> MARKETS </a>
-			<ul> <div id="marketMenuItemDropDown"><?php echo dropdown_list(55);?></div> </ul>
+
+	<li>
+		<div id="beerMenuItem"><a class="secondLineMenuTextAnchor"  href ="http://www.provencefoodandwine.com/?cat=416";
+        title="Beers and spirits listed with region"> BEER & SPIRITS </a>
 		</div>
-	</li>-->
-    <li>
-		<div id="surpriseMenuItem"><a class="wineProducersMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=65";
-        title="Other Temptations listed with region"> &nbsp;&nbsp;OTHER<br/>&nbsp;&nbsp; IDEAS </a>
+	</li>
+	
+	<li>
+		<div id="treatsMenuItem"><a class="secondLineMenuTextAnchor"  href ="http://www.provencefoodandwine.com/?cat=415";
+        title="Inedible treats listed with region">INEDIBLE TREATS  </a>
+		</div>
+	</li>
+
+	<li>
+		<div id="outingsMenuItem"><a class="secondLineMenuTextAnchor"  href ="http://www.provencefoodandwine.com/?cat=417";
+        title="Outings listed with region">&nbsp;&nbsp;&nbsp;OUTINGS  </a>
+		</div>
+	</li>
+	<li>
+		<div id="coursesMenuItem"><a class="secondLineMenuTextAnchor"  href ="http://www.provencefoodandwine.com/?cat=418";
+        title="Food/wine/cookery courses listed with region"> &nbsp;&nbsp;&nbsp;COURSES  </a>
 		</div>
 	</li>
 
 
-
+	<li>
+		<div id="itineraryMenuItem"><a class="secondLineMenuTextAnchor"  href ="http://www.provencefoodandwine.com/?cat=314";
+        title="Itineraries listed with region"> ITINERARIES </a>
+		</div>
+	</li>
+	
+	<li>
+		<div id="recipesMenuItem"><a class="secondLineMenuTextAnchor"  href ="http://www.provencefoodandwine.com/?cat=293";
+        title="Recipes listed with region"> &nbsp;&nbsp;&nbsp;RECIPES  </a>
+		</div>
+	</li>
+	
   </ul>
 </div>
-
-
-
-
-
-

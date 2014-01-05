@@ -1,19 +1,69 @@
 <div id="sidebar-left">
 
+<?php
+
+/* USER-AGENTS
+================================================== */
+/*function check_user_agent ( $type = NULL ) {
+        $user_agent = strtolower ( $_SERVER['HTTP_USER_AGENT'] );
+        if ( $type == 'bot' ) {
+                // matches popular bots
+                if ( preg_match ( "/googlebot|adsbot|yahooseeker|yahoobot|msnbot|watchmouse|pingdom\.com|feedfetcher-google/", $user_agent ) ) {
+                        return true;
+                        // watchmouse|pingdom\.com are "uptime services"
+                }
+        } else if ( $type == 'browser' ) {
+                // matches core browser types
+                if ( preg_match ( "/mozilla\/|opera\//", $user_agent ) ) {
+                        return true;
+                }
+        } else if ( $type == 'mobile' ) {
+                // matches popular mobile devices that have small screens and/or touch inputs
+                // mobile devices have regional trends; some of these will have varying popularity in Europe, Asia, and America
+                // detailed demographics are unknown, and South America, the Pacific Islands, and Africa trends might not be represented, here
+                if ( preg_match ( "/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent ) ) {
+                        // these are the most common
+                        return true;
+                } else if ( preg_match ( "/mobile|pda;|avantgo|eudoraweb|minimo|netfront|brew|teleca|lg;|lge |wap;| wap /", $user_agent ) ) {
+                        // these are less common, and might not be worth checking
+                        return true;
+                }
+        }
+        return false;
+}	*/
+
+$ismobile = check_user_agent('mobile');
+?>
+
     <a href="?page_id=2"; title="About Mary Dowey & this Website">
         <div id="authorImage"></div></a>
 
 	
 	<a href="?page_id=2"; title="About Mary Dowey & this Website"> <div class="aboutCaption"  >
 		ABOUT <br/>MARY DOWEY <br/>FOOD & WINE <br/> WRITER IN <br/> PROVENCE </div>  </a>
+		<!--<div style="position : absolute; top:40px; width: 100px;left:150px;">
+	'I have a home in Provence & visit every single place that I review'</div>-->
+	
     <br/><br/><br/><br/><br/><br/>
 
     <a href="mailto:marydowey@gmail.com" Send email to Mary Dowey; title="Contact"
-    style="position : absolute; top:122px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
+    style="position : absolute; top:122px; left:135px;color:#990099; ; font-weight:normal;  text-decoration:none;">
     CONTACT</a>
-    <br/> <br/> <br/>	<br/>
-
-<!-- email address as link
+	  <br/> <br/> <br/>
+	  <?php
+		if($ismobile) 
+		{ ?>
+			<div id="personalQuoteMobile">
+		<?php
+		} else {?>
+		   <div id="personalQuote">
+		<?php
+		} ?>
+	   'With a home in Provence, I visit every single place that I review.'</div>
+	  	<br/>
+	
+<!--
+email address as link
     <div style="position : absolute; top:105px; left:150px;color:#990099; ; font-weight:normal;  text-decoration:none;">
     CONTACT</div>
     <br/>
