@@ -243,7 +243,7 @@ function dropdown_list($catID) {
 		</div>
 	</li>
     <li>
-		<div id="wineProducerMenuItem"><a class="twoWordsOneLineMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=3";
+		<div id="wineProducerMenuItem"><a class="wineProducersMenuAnchor"  href ="http://www.provencefoodandwine.com/?cat=3";
         title="Wine Producers listed with region">WINE PRODUCERS</a>
 		</div>
 	</li>

@@ -394,6 +394,7 @@ left :50%;
 	background:  url('images/blackGarlicSmall.gif') no-repeat;
 	height: 67px;
 	width:  67px;
+	z-index : -1;
 }
 
 #garlicLogoSmallScreen {
@@ -447,14 +448,14 @@ left :50%;
 .restaurantMenuAnchor {
 	position:absolute;
    	top :8px;
-	left :10px;
+	left :12px;
     color: black;
   	font-weight : bold;
 }
-.twoWordsOneLineMenuAnchor {
+.wineProducersMenuAnchor {
 	position:absolute;
    	top :8px;
-	left: 8px;
+	left: 13px;
 	color: black;
   	font-weight : bold;
 }
@@ -462,23 +463,15 @@ left :50%;
 .foodProducersMenuAnchor {
 	position:absolute;
    	top :8px;
-	left: 4px;
+	left: 8px;
 	color: black;
   	font-weight : bold;
-}
-
-.wineProducersMenuAnchor {
-	position:absolute;
-   	top :5px;
-	left :10px;
-  	color: black;
-	font-weight : bold;
 }
 
 .secondLineMenuTextAnchor {
 	position:absolute;
    	top :8px;
-	left :10px;
+	left :15px;
     color: black;
   	font-weight : bold;
 }
@@ -648,13 +641,13 @@ left :50%;
       display:inline-block;   */
 }
 
-#homeMenuItem a, #restaurantMenuItem  a, #hotelMenuItem a, #wineProducerMenuItem a,
-#foodProducerMenuItem  a, #shopMenuItem a,
-#marketMenuItem  a, #itineraryMenuItem a {
+#homeMenuItem a, #restaurantMenuItem  a, #hotelMenuItem a, #wineProducerMenuItem a, #foodProducerMenuItem  a, #shopMenuItem a,
+#beerMenuItem a, #treatsMenuItem a, #outingsMenuItem  a, #coursesMenuItem  a, #itineraryMenuItem a, #recipesMenuItem a {
  	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 
 	font-size: 9pt;
 	color : #000000;
+	font-weight: bold;
 }
 
 
@@ -1018,6 +1011,7 @@ color:#990099;
 
 #personalQuote{
 	position : relative;
+	padding-top: 10px;
 }
 
 
@@ -1090,6 +1084,17 @@ font-size:14px;
 	font-size:14px;  
 	padding-bottom : 9px;
 	width : 130px;
+	
+}
+
+.contact {
+	position : absolute; 
+	top: 122px;
+	left:135px;
+	color : #990099; 
+	font-size:14px;  
+	font-weight : normal;
+	text-decoration: none;
 	
 }
 
