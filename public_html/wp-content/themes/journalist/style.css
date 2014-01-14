@@ -287,6 +287,14 @@ left :50%;
    
 }
 
+#best9HostellerieBerard {
+	background:  url('images/HostellerieBerard190.jpg') no-repeat;
+	height: 105px;
+	width:  190px;
+	display: block;
+	position: relative;
+}
+
 #rickSteves {
     background:  url('images/rickStevesProvence2014small.jpg') no-repeat;
 	height: 178px;

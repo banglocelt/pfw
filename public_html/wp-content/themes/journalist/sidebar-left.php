@@ -110,6 +110,15 @@ email address as link
 	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
 	    
     <ul>		
+	    <li><a href="http://www.provencefoodandwine.com/2013/05/20/hostellerie-berard/" title="HOSTELLERIE B&Eacute;RARD">
+				<div id="best9HostellerieBerard"></div> </a> <div style="position:relative;padding-top:3px">HOSTELLERIE B&Eacute;RARD</div> <br/> </li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2013/05/20/hostellerie-berard/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.hotel-berard.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		</div>
+		
 		<li><a href="http://www.provencefoodandwine.com/2010/06/04/clos-des-papes/" title="CLOS DES PAPES">
 				<div id="best8ClosdesPapes"></div> </a> <div style="position:relative;padding-top:3px">CLOS DES PAPES</div> <br/> </li>
 		<div id="postOrWebsite">
