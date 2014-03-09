@@ -109,8 +109,17 @@ email address as link
 	<div class="superSponsors"> BEST OF THE BEST</div> <br/> 
 	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
 	    
-    <ul>		
-	    <li><a href="http://www.provencefoodandwine.com/2013/05/20/hostellerie-berard/" title="HOSTELLERIE B&Eacute;RARD">
+    <ul>	
+	        <li><a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="CASTELAS">
+				<div id="best8Castelas"></div> </a> <div style="position:relative;padding-top:3px">CASTELAS</div> <br/> </li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.castelas.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		</div>
+	
+	        <li><a href="http://www.provencefoodandwine.com/2013/05/20/hostellerie-berard/" title="HOSTELLERIE B&Eacute;RARD">
 				<div id="best9HostellerieBerard"></div> </a> <div style="position:relative;padding-top:3px">HOSTELLERIE B&Eacute;RARD</div> <br/> </li>
 		<div id="postOrWebsite">
 			<ul>
@@ -125,15 +134,6 @@ email address as link
 			<ul>
 				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/04/clos-des-papes/" title="Read the Post"> Post</a> </li>
 				<li><a href="http://www.clos-des-papes.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		</div>
-		
-		<li><a href="http://www.provencefoodandwine.com/2011/07/11/cooking-in-provence/" title="COOKING IN PROVENCE">
-				<div id="best1CookingInProvence"></div> </a> <div style="position:relative;padding-top:3px">COOKING IN PROVENCE</div> <br/> </li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2011/07/11/cooking-in-provence/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.cookinginprovence.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
 			</ul>
 		</div>
 		
@@ -193,16 +193,7 @@ email address as link
 				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="Read the Post"> Post</a> </li>
 				<li><a href="http://www.domainedugrapillondor.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
 			</ul>
-		</div>
-		
-		<li><a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="CASTELAS">
-				<div id="best8Castelas"></div> </a> <div style="position:relative;padding-top:3px">CASTELAS</div> <br/> </li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.castelas.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		</div>
+		</div>		
 		
 	</ul>
 	
@@ -242,6 +233,10 @@ email address as link
 		Signal Books blog  </a></li>
 		<li><a href="http://Marseille-provence.info" >
 		Marseille-provence.info  </a></li>
+		<li><a href="http://www.provenceguru.com" >
+		Provence Guru </a></li>
+                <li><a href="http://www.slowlanetravel.com" >
+		slowlanetravel.com </a></li>
 		
 	</ul>
 
