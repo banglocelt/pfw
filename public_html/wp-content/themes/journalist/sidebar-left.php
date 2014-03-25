@@ -80,6 +80,7 @@ email address as link
 
     <?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) {} ?>
 
+
     <div class="superSponsors">SUPER SPONSORS</div>
         
     <ul>
@@ -92,8 +93,8 @@ email address as link
         <li><a href="http://www.chateauneuf.com/english/index.html" title="Find out all about the most famous wine region in the Southern Rhone ">
 		<div id="chateauneufLogo"></div> </a></li>
         <br/>
-        <li><a href="http://www.jnwine.com" title="Wine merchant with excellent selection - buy online for delivery UK or Ireland ">
-		<div id="jnWineLogo"></div> </a></li>
+        <li><a href="http://ot-terredargence.fr/?lang=Anglais" title="The charmingly unspoilt Gard region between Provence and the Camargue">
+		<div id="terre_dArgenceLogo"></div> </a></li>
 		
 		<li><a href="http://www.vins-luberon.fr/en/" title="Lively Luberon wines site with excellent tourist information">
 		<div id="luberonLogo"></div> </a></li>
@@ -101,11 +102,10 @@ email address as link
 		<li><a href="http://www.ardeche-guide.com/ardeche-tourisme/en/1/home_page.html?utm_source=provencefoodandwine&utm_medium=banniere&utm_campaign=partenariatprovence" title="At Provence's back door, dramatic scenery and superb food products">
 		<div id="ardecheLogo"></div> </a></li>
         
-		
-        <!--<li><a href="http://www.worldfirst.com/for-you/foreign-exchange/?ID=988" title="A leading currency brokerage that offers bank-beating exchange rates and service ">
-		<div id="worldFirstLogo"></div> </a></li>-->
+		<li><a href="http://www.tyrrellandcompany.com" title="Leading importers of wines from the most dynamic estates in the Rh&ocirc;ne Valley">
+		<div id="tyrellLogo"></div> </a></li>
 	</ul>
-<br/> 
+<br/> <br/> <br/> 
 	<div class="superSponsors"> BEST OF THE BEST</div> <br/> 
 	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
 	    
@@ -240,7 +240,14 @@ email address as link
 		
 	</ul>
 
-<br/>        <br/>
+<br/>        
+
+<ul>		
+	<li><a href="http://www.rhonewineweekireland.com" title="Rh&ocirc;ne Wine Week 2014">
+	<div id="rhone_wine_week"></div> </a></li>
+</ul>	
+
+<br/>
     <!-- <a href="?page_id=428 " title="Find out what foods are in season">        </a>     -->
     <div class="recentPosts"; style="color:green">FOODS TO ENJOY IN SEASON</div> <br/>
 
