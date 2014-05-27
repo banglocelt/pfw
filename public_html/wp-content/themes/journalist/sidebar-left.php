@@ -87,7 +87,7 @@ email address as link
 		<li><a href="http://www.provenceguide.co.uk/" title="A wealth of information for visitors to Provence's biggest region, the Vaucluse">
 		<div id="vaucluseTourismLogo"></div> </a></li>
 		<br/>
-		<li><a href="http://www.rhone-wines-tourism.com/" title="An important site for wine visitors to the Rhone Valley - North and South">
+		<li><a href="http://www.rhone-wines.com/en/visit" title="An important site for wine visitors to the Rhone Valley - North and South">
 		<div id="interRhoneLogo"></div> </a></li>
         <br/>
         <li><a href="http://www.chateauneuf.com/english/index.html" title="Find out all about the most famous wine region in the Southern Rhone ">
@@ -147,15 +147,6 @@ email address as link
 		
 		</div>
 		
-		<li><a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/" title="BASTIDE DU CLAUX">
-		<div id="best3BastideDuClaux"></div> </a> <div style="position:relative;padding-top:3px"; >BASTIDE DU CLAUX</div> <br/></li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2011/08/10/bastide-du-claux/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.bastideduclaux.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		
-		</div>
 		
 		<li><a href="http://www.provencefoodandwine.com/2010/06/21/chateau-pesquie/" title="CH&Acirc;TEAU PESQUI&Eacute;">
 		<div id="best4ChateauPesquie"></div> </a> <div style="position:relative;padding-top:3px"; >CH&Acirc;TEAU PESQUI&Eacute;</div> <br/></li>
@@ -237,7 +228,8 @@ email address as link
 		Provence Guru </a></li>
                 <li><a href="http://www.slowlanetravel.com" >
 		slowlanetravel.com </a></li>
-		
+		<li><a href="http://www.vinosolex.com" >
+		vinosolex.com </a></li>
 	</ul>
 
 <br/>        
