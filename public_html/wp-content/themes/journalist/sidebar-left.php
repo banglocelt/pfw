@@ -110,6 +110,15 @@ email address as link
 	<div class="somePersonalFavourites">SOME PERSONAL FAVOURITES</div>
 	    
     <ul>	
+			<li><a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="DOMAINE DU GRAPILLON D’OR">
+				<div id="best7DomaineDuGrap"></div> </a> <div style="position:relative;padding-top:3px">DOMAINE DU GRAPILLON D'OR</div> <br/> </li>
+		<div id="postOrWebsite">
+			<ul>
+				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="Read the Post"> Post</a> </li>
+				<li><a href="http://www.domainedugrapillondor.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
+			</ul>
+		</div>
+		
 	        <li><a href="http://www.provencefoodandwine.com/2010/11/25/castelas/" title="CASTELAS">
 				<div id="best8Castelas"></div> </a> <div style="position:relative;padding-top:3px">CASTELAS</div> <br/> </li>
 		<div id="postOrWebsite">
@@ -128,14 +137,6 @@ email address as link
 			</ul>
 		</div>
 		
-		<li><a href="http://www.provencefoodandwine.com/2010/06/04/clos-des-papes/" title="CLOS DES PAPES">
-				<div id="best8ClosdesPapes"></div> </a> <div style="position:relative;padding-top:3px">CLOS DES PAPES</div> <br/> </li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/04/clos-des-papes/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.clos-des-papes.fr" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
-		</div>
 		
 		<li><a href="http://www.provencefoodandwine.com/2010/05/19/auberge-du-vin/" title="AUBERGE DU VIN">
 		<div id="best2AubergeDuVin"></div> </a> <div style="position:relative;padding-top:3px"; >AUBERGE DU VIN</div> <br/></li>
@@ -175,15 +176,6 @@ email address as link
 				<li><a href="http://www.chateau-la-coste.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
 			</ul>
 		
-		</div>
-		
-		<li><a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="DOMAINE DU GRAPILLON D’OR">
-				<div id="best7DomaineDuGrap"></div> </a> <div style="position:relative;padding-top:3px">DOMAINE DU GRAPILLON D'OR</div> <br/> </li>
-		<div id="postOrWebsite">
-			<ul>
-				<li>Go To ->  <a href="http://www.provencefoodandwine.com/2010/06/25/domaine-du-grapillon-dor/" title="Read the Post"> Post</a> </li>
-				<li><a href="http://www.domainedugrapillondor.com" title="Visit the website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website</a></li>
-			</ul>
 		</div>		
 		
 	</ul>
